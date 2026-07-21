@@ -181,7 +181,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：广告栏组件 1
 			type: "advertisement",
 			// 是否启用该组件
-			enable: false,
+			enable: true,
 			// 是否显示组件标题
 			showTitle: false,
 			// 组件位置
@@ -193,8 +193,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 				ad: {
 					image: {
 						src: "/assets/images/ad/ad1.webp",
-						alt: "广告横幅",
-						link: "https://haoka.lot-ml.com/plugreg.html?agentid=1423316",
+						alt: "低价便宜流量卡推荐",
+						link: "https://h5.dandanhou.net/index?k=c0FVT1RCVDFKVjg9",
 						external: true,
 					},
 					// 是否允许关闭广告
@@ -212,7 +212,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 			// 组件类型：广告栏组件 2
 			type: "advertisement",
 			// 是否启用该组件
-			enable: false,
+			enable: true,
 			// 组件位置
 			position: "sticky",
 			// 是否在文章详情页显示
