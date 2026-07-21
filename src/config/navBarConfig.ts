@@ -33,6 +33,23 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		],
 	});
 
+	// vps测试存档其子菜单
+	links.push({
+		name: "测评",
+		url: "#",
+		icon: "material-symbols:article",
+		children: [
+			// 归档
+			LinkPresets.Archive,
+
+			// 分类
+			LinkPresets.Categories,
+
+			// 标签
+			LinkPresets.Tags,
+		],
+	});
+  
 	// 动态
 	links.push(LinkPresets.Dynamic);
 
